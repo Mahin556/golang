@@ -1,9 +1,8 @@
 package main
-
-import "fmt"
+import ("fmt")
 
 func main() {
-	fmt.Print("Hello, World!")
-	fmt.Println("Hello, World!")
-	fmt.Println("Hello, World!")
+  for num := range 13 {
+    fmt.Println(num)
+  }
 }
